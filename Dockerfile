@@ -1,6 +1,5 @@
 FROM node:6.11.2
 
-RUN locale-gen en_US.UTF-8
 ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
 
 RUN apt-get update -qq 
