@@ -8,4 +8,4 @@ RUN apt-get install -y ruby ruby-dev autoconf bison build-essential libssl-dev l
 RUN gem install --no-rdoc --no-ri sass -v 3.4.22
 RUN gem install -no-rdoc --no-ri compass -v 1.0.3
 RUN gem install scss_lint
-RUN npm install -g grunt-cli bower
+RUN npm install -g grunt-cli bower yarn
